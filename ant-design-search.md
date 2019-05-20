@@ -1,7 +1,15 @@
 ```javascript
-<template v-for="(fragment, i) in text.toString().split(new RegExp(`(?<=${searchText})|(?=${searchText})`, 'i'))">
-<mark v-if="fragment.toLowerCase() === searchText.toLowerCase()" :key="i" class="highlight">{{fragment}}</mark>
-<template v-else>{{fragment}}</template>
+<template 
+v-for="(fragment, i) in text.toString().split(new RegExp(`(?<=${searchText})|(?=${searchText})`, 'i'))">
+<mark 
+v-if="fragment.toLowerCase() === searchText.toLowerCase()" 
+:key="i" 
+class="highlight"
+>{{fragment}}</mark>
+<template 
+v-else>
+{{fragment}}
+</template>
 ```
 ```javascript
 </template>
