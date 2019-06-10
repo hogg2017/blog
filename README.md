@@ -13,7 +13,7 @@ try to describe sth
 </a>
 </li>
 <li>
-<a href="https://github.com/hogg2017/blog/blob/master/tips.md">
+<a href="https://github.com/hogg2017/blog/blob/master/events.md">
 3.单向数据流，事件（vue基础）
 </a>
 </li>
