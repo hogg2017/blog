@@ -1,7 +1,6 @@
-1.最近遇到一个需求，有一个父组件
+1.最近遇到一个需求，有一个父组件和两个子组件
 ```javascript
 <father></father>
-和两个子组件
 <child1></child1>
 <child2></child2>
 ```
